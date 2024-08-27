@@ -12,6 +12,8 @@ import nl from '@/locales/nl.json'
 import App from './App.vue'
 import router from './router'
 
+import 'vue-final-modal/style.css'
+
 const app = createApp(App)
 
 const i18n = createI18n({
